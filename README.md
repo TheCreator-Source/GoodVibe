@@ -19,11 +19,11 @@ GoodVibe - это простой мессенджер с клиент-серве
 
 ### Сервер
 1. Установите зависимости: `pip install -r requirements.txt`
-2. Запустите сервер: `python server.py`
+2. Запустите сервер: `python Server.py`
 
 ### Клиент
 1. Установите зависимости: `pip install -r requirements.txt`
-2. Запустите клиент: `python client_gui_custom.py`
+2. Запустите клиент: `python Client.py`
 
 ## Сборка .exe
 ```bash
