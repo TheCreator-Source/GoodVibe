@@ -1,7 +1,0 @@
-.env
-config.ini
-*.db
-__pycache__/
-server_files/
-MessengerDownloads/
-.messenger_*
