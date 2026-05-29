@@ -17,16 +17,6 @@ GoodVibe - это простой мессенджер с клиент-серве
 
 ## Установка и запуск
 
-### Сервер
-1. Установите зависимости: `pip install -r requirements.txt`
-2. Запустите сервер: `python Server.py`
-
-### Клиент
-1. Установите зависимости: `pip install -r requirements.txt`
-2. Запустите клиент: `python Client.py`
-
-## Сборка .exe
-```bash
-pip install pyinstaller
-pyinstaller --onefile --name messenger_server server.py
-pyinstaller --onefile --windowed --name messenger_client --hidden-import=CTkListbox client_gui_custom.py
+После установки (перед запуском) перейдите по пути C:\Program Files\GoodVibe
+Затем в этой папке найдите файл messenger_server и запустите его от имени администратора
+ВАЖНО: Это сделано для того, чтобы вы могли удобно пользоваться мессенджером, т.к установщик еще не доработан!
